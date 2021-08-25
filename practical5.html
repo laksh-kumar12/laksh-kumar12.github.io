@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical-5</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #cdd1ce;
+    }
+    .nav {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 8px;
+      background-color: white;
+    }
+    #nav {
+      background-color: #4a4d4b;
+      padding: 15px;
+      display: inline-flex;
+      width: 100%;
+    }
+    .nav .nav-element {
+      font-weight: 700;
+      padding-left: 50px;
+      padding-right: 10px;
+      color: white;
+      width: 100%;
+      border-right: 2px solid white;
+    }
+    a {
+      text-decoration: none;
+    }
+    .nav #last {
+      border: none;
+    }
+    .heading-2 {
+      color: white;
+      font-weight: 700;
+      text-align: center;
+    }
+    .img-map {
+      background-color: white;
+      margin: auto;
+      width: 300px;
+      height: 300px;
+    }
+    .img {
+      object-fit: contain;
+      width: 300px;
+      height: 300px;
+    }
+    .heading-3 {
+      color: red;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <nav class="nav">
+      <div id="nav">
+        <a class="nav-element" href="../index.html">HOME</a>
+        <a class="nav-element" href="../practical1.html">PRACTICAL-1</a>
+        <a class="nav-element" href="../practical2.html">PRACTICAL-2</a>
+        <a class="nav-element" href="../practical3.html">PRACTICAL-3</a>
+        <a class="nav-element" href="../index.html">PRACTICAL-4</a>
+        <a class="nav-element" id="last" href="#">PRACTICAL-5</a>
+      </div>
+    </nav>
+    <h2 class="heading-2">Introduction to Front-End Technologies</h2>
+    <div class="img-map">
+      <img
+        class="img"
+        src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/115565539/original/85df4df6bddad168eb52111276b817fb5c7944d9/fix-or-do-anything-in-html-css-javascript-bootstrap.png"
+        alt="img-map"
+        usemap="#workmap"
+      />
+      <map name="workmap">
+        <area
+          shape="rect"
+          coords="50 50 150 140"
+          alt="html"
+          href="./practical-5_html.html"
+        />
+        <area
+          shape="rect"
+          coords="160 50 250 140"
+          alt="js"
+          href="./practical-5_js.html"
+        />
+        <area
+          shape="rect"
+          coords="50 160 140 270"
+          alt="css"
+          href="./practical-5_css.html"
+        />
+        <area
+          shape="rect"
+          coords="160 170 250 270"
+          alt="bootstrap"
+          href="./practical-5_bootstrap.html"
+        />
+      </map>
+    </div>
+    <h3 class="heading-3">
+      Click on any part of logo to know more about these technologies.
+    </h3>
+  </body>
+</html>
